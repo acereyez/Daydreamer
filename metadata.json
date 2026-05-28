@@ -1,0 +1,8 @@
+{
+  "name": "Remix: Daydreamer and Sons",
+  "description": "Creative Internet Café \u0026 Digital Services Studio website with interactive 4-step booking flow, services catalog, portfolio gallery, blog, and admin dashboard.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
