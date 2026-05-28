@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { ArrowUp, ArrowLeft } from "lucide-react";
+import { Analytics } from '@vercel/analytics/react';
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Home from "./components/Home";
@@ -310,6 +311,9 @@ export default function App() {
           </button>
         )}
       </div>
+      
+      {/* Vercel Web Analytics */}
+      <Analytics />
     </div>
   );
 }
